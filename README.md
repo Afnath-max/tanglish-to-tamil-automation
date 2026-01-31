@@ -1,16 +1,14 @@
 # Thanglish to Tamil Testing - Quick Guide
 
 **Assignment 1 - IT3040 ITPM**  
-**Registration Number:** `<Your_Registration_Number>`
 
 ---
 
 ## 🚀 Quick Setup (3 Commands)
 
 ```bash
-cd <project-folder>
-npm install
-npx playwright test
+cd <project-folder> # Change current directry to folder name
+npm install # install dependencies
 ```
 
 ---
@@ -29,12 +27,12 @@ npm --version   # Check npm
 
 ## 🎯 Running Tests
 
-### Terminal Method
+### Terminal Method 
 
 ```bash
-npx playwright test              # Run all tests
-npx playwright test --headed     # See browser
-npx playwright show-report       # View results
+npx playwright test              # Run all tests 
+npx playwright test --headed     # See browser (all run at once)
+npx playwright show-report       # View results (on browser)
 ```
 
 ### VS Code Method (Recommended)
@@ -43,14 +41,14 @@ npx playwright show-report       # View results
 
 - Open Extensions (`Ctrl+Shift+X`)
 - Search: **"Playwright Test for VSCode"**
-- Install the **Microsoft** extension (official)
+- Install the Extension  **Microsoft** extension (official)
 
 #### 2. Watch Tests in Browser
 
 **What you'll see:**
 
 - **🧪 Testing icon** (beaker/flask) appears in left sidebar
-- Click it to open Test Explorer
+- Click it to open Test Explorer for more option
 - Each test has a **▶️ green triangle** on the left side
 - Click any triangle to run that specific test
 
@@ -95,20 +93,20 @@ npx playwright --version
 
 ## 📊 Project Info
 
-- **Tests:** 35+ (24 positive, 10 negative, 1 UI)
+- **Tests:** 42 (30 positive, 11 negative, 1 UI)
 - **URL:** https://tamil.changathi.com/
 - **Duration:** ~5-10 minutes
 - **Internet Required:** Yes
 
 ---
 
-## 📁 Project Structure
+## 📁 Project content:
 
 ```
-tests/
-├── positive-functional/  # 24+ tests
-├── negative-functional/  # 10+ tests
-└── ui-tests/            # 1 test
+tests (contains)
+├── positive-functional: # 30 tests
+├── negative-functional:  # 11 tests
+└── ui-tests:            # 1 test
 ```
 
 ---
